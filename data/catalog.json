@@ -144,6 +144,23 @@
         "withdrawal_id"
       ],
       "sha256": "18510d5d90a0c606f199bc11742c5c8f3a47c691993d83f415c3bc2137729775"
+    },
+    "gateway_alerts": {
+      "count": 1,
+      "fields": [
+        "alert_id",
+        "gateway_id",
+        "capability",
+        "protocol",
+        "issued_at",
+        "affected_from",
+        "affected_to",
+        "status"
+      ],
+      "primary_key": [
+        "alert_id"
+      ],
+      "sha256": "038dd49592407769092d95478ba331d111374c7a5964637ba2a9389eb9803da4"
     }
   }
 }
