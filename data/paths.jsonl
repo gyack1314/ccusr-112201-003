@@ -1,0 +1,16 @@
+{"path_id":"P0","sensor_id":"D0","gateway_id":"D1","app_id":"D2","protocol":"P1","capability":"read"}
+{"path_id":"P1","sensor_id":"D3","gateway_id":"D4","app_id":"D5","protocol":"P2","capability":"control"}
+{"path_id":"P2","sensor_id":"D6","gateway_id":"D7","app_id":"D8","protocol":"P1","capability":"read"}
+{"path_id":"P3","sensor_id":"D9","gateway_id":"D10","app_id":"D11","protocol":"P2","capability":"control"}
+{"path_id":"P4","sensor_id":"D12","gateway_id":"D13","app_id":"D14","protocol":"P1","capability":"read"}
+{"path_id":"P5","sensor_id":"D15","gateway_id":"D16","app_id":"D17","protocol":"P2","capability":"control"}
+{"path_id":"P6","sensor_id":"D18","gateway_id":"D19","app_id":"D20","protocol":"P1","capability":"read"}
+{"path_id":"P7","sensor_id":"D21","gateway_id":"D22","app_id":"D23","protocol":"P2","capability":"control"}
+{"path_id":"P8","sensor_id":"D0","gateway_id":"D1","app_id":"D2","protocol":"P1","capability":"read"}
+{"path_id":"P9","sensor_id":"D3","gateway_id":"D4","app_id":"D5","protocol":"P2","capability":"control"}
+{"path_id":"P10","sensor_id":"D6","gateway_id":"D7","app_id":"D8","protocol":"P1","capability":"read"}
+{"path_id":"P11","sensor_id":"D9","gateway_id":"D10","app_id":"D11","protocol":"P2","capability":"control"}
+{"path_id":"P12","sensor_id":"D12","gateway_id":"D13","app_id":"D14","protocol":"P1","capability":"read"}
+{"path_id":"P13","sensor_id":"D15","gateway_id":"D16","app_id":"D17","protocol":"P2","capability":"control"}
+{"path_id":"P14","sensor_id":"D18","gateway_id":"D19","app_id":"D20","protocol":"P1","capability":"read"}
+{"path_id":"P15","sensor_id":"D21","gateway_id":"D22","app_id":"D23","protocol":"P2","capability":"control"}

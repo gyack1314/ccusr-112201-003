@@ -1,0 +1,149 @@
+{
+  "synthetic": true,
+  "encoding": "UTF-8",
+  "tables": {
+    "devices": {
+      "count": 24,
+      "fields": [
+        "device_id",
+        "kind",
+        "firmware",
+        "vendor"
+      ],
+      "primary_key": [
+        "device_id"
+      ],
+      "sha256": "191f6320d08ba2721c691ef5a5564d468eb021b811703fe09123140b23584817"
+    },
+    "paths": {
+      "count": 16,
+      "fields": [
+        "path_id",
+        "sensor_id",
+        "gateway_id",
+        "app_id",
+        "protocol",
+        "capability"
+      ],
+      "primary_key": [
+        "path_id"
+      ],
+      "sha256": "91ab985660f949f73a1acd3173f78fb7c63273bbd62f4de5c5aa14ecb1139a74"
+    },
+    "tests": {
+      "count": 160,
+      "fields": [
+        "test_id",
+        "path_id",
+        "result",
+        "tested_at",
+        "capability",
+        "firmware",
+        "condition"
+      ],
+      "primary_key": [
+        "test_id"
+      ],
+      "sha256": "ea44d9eae78fa8e52b11e563e95e88dcf8c46d3f4f6d7e49a667c8946e58ecaa"
+    },
+    "compatibility": {
+      "count": 16,
+      "fields": [
+        "compatibility_id",
+        "path_id",
+        "firmware",
+        "protocol",
+        "valid_from",
+        "valid_to"
+      ],
+      "primary_key": [
+        "compatibility_id"
+      ],
+      "sha256": "6b171c774e742976b575f8ff77a9954a4a148cfc7abed52951f4f4044a3f653b"
+    },
+    "gateways": {
+      "count": 8,
+      "fields": [
+        "gateway_id",
+        "max_devices",
+        "region"
+      ],
+      "primary_key": [
+        "gateway_id"
+      ],
+      "sha256": "baf524cbd538cc610a02cad61edb56b56d746058f2f29370375c248014caab51"
+    },
+    "line_requirements": {
+      "count": 12,
+      "fields": [
+        "requirement_id",
+        "line_id",
+        "required_path_group",
+        "capability",
+        "devices_needed"
+      ],
+      "primary_key": [
+        "requirement_id"
+      ],
+      "sha256": "ab733de0debfd163285aa70d929c6230d24800d15b8f69219dff49421bfbc677"
+    },
+    "quotes": {
+      "count": 24,
+      "fields": [
+        "quote_id",
+        "vendor",
+        "path_id",
+        "region",
+        "valid_to",
+        "delivery_before",
+        "price"
+      ],
+      "primary_key": [
+        "quote_id"
+      ],
+      "sha256": "32793566b785e808d7310e94a4faec9baae73b98e52d9b9c4e2297ee7661ff26"
+    },
+    "confirmed_allocations": {
+      "count": 1,
+      "fields": [
+        "allocation_id",
+        "line_id",
+        "gateway_id",
+        "devices",
+        "start",
+        "end"
+      ],
+      "primary_key": [
+        "allocation_id"
+      ],
+      "sha256": "ed2662116fcf992e86de1c68c25582119dcd13756885a66fe9222da63345f29e"
+    },
+    "plans": {
+      "count": 6,
+      "fields": [
+        "plan_id",
+        "line_id",
+        "region",
+        "start",
+        "end",
+        "status"
+      ],
+      "primary_key": [
+        "plan_id"
+      ],
+      "sha256": "df9613c2705aba46c670b57e7578b437d87e2876d6088d0e420347faec8b92f1"
+    },
+    "withdrawals": {
+      "count": 1,
+      "fields": [
+        "withdrawal_id",
+        "test_id",
+        "issued_at"
+      ],
+      "primary_key": [
+        "withdrawal_id"
+      ],
+      "sha256": "18510d5d90a0c606f199bc11742c5c8f3a47c691993d83f415c3bc2137729775"
+    }
+  }
+}

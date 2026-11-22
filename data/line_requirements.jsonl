@@ -1,0 +1,12 @@
+{"requirement_id":"LR0-read","line_id":"L0","required_path_group":"read","capability":"read","devices_needed":5}
+{"requirement_id":"LR0-control","line_id":"L0","required_path_group":"control","capability":"control","devices_needed":5}
+{"requirement_id":"LR1-read","line_id":"L1","required_path_group":"read","capability":"read","devices_needed":5}
+{"requirement_id":"LR1-control","line_id":"L1","required_path_group":"control","capability":"control","devices_needed":5}
+{"requirement_id":"LR2-read","line_id":"L2","required_path_group":"read","capability":"read","devices_needed":5}
+{"requirement_id":"LR2-control","line_id":"L2","required_path_group":"control","capability":"control","devices_needed":5}
+{"requirement_id":"LR3-read","line_id":"L3","required_path_group":"read","capability":"read","devices_needed":5}
+{"requirement_id":"LR3-control","line_id":"L3","required_path_group":"control","capability":"control","devices_needed":5}
+{"requirement_id":"LR4-read","line_id":"L4","required_path_group":"read","capability":"read","devices_needed":5}
+{"requirement_id":"LR4-control","line_id":"L4","required_path_group":"control","capability":"control","devices_needed":5}
+{"requirement_id":"LR5-read","line_id":"L5","required_path_group":"read","capability":"read","devices_needed":5}
+{"requirement_id":"LR5-control","line_id":"L5","required_path_group":"control","capability":"control","devices_needed":5}
